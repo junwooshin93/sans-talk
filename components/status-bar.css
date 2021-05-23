@@ -1,0 +1,25 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 94%;
+    box-sizing: border-box;
+}
+
+.status-bar__column-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-bar__column-items i:nth-child(2) {
+    margin: 0px 5px;
+}
+
+.status-bar .fa-battery-three-quarters {
+    font-size: var(--font-size-large);
+}

@@ -1,0 +1,41 @@
+.my-profil {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: var(--border-smooth);
+}
+
+.my-profil__column {
+    display: flex;
+    align-items: center;
+}
+
+.my-profil__column:first-child > span {
+    margin-left: 15px;
+    font-size: var(--font-size-large);
+}
+
+.my-profil__img {
+    height: var(--img-size-basic);
+    border-radius: 20px;
+}
+
+.my-profil__music {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--font-color-mydog);
+    border-radius: 15px;
+    padding: 6px 10px;
+}
+
+.my-profil__music-name {
+    width: 150px;
+    font-size: var(--font-size-small);
+    color: var(--font-color-grey);
+}
+
+.my-profil__music > i {
+    color: var(--font-color-mydog);
+}

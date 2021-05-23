@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column main-margin-leftright">
+                <div class="status-bar__column-items">
+                    <span>4:38</span>
+                    <i class="fas fa-sms"></i>
+                    <i class="fas fa-running"></i>
+                </div>
+            </div>
+            <div class="status-bar__column main-margin-leftright">
+                <div class="status-bar__column-items">
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-signal"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                </div>
+            </div>
+        </div>
+
+        <header class="login__welcome">
+            <h1 class="login__welcome__title">Welcome to Sans Talk</h1>
+            <div class="login__welcome__text">
+                If you habe already an Account, <br />log in wiht your email or
+                phone number
+            </div>
+        </header>
+
+        <form class="login__form main-margin-leftright">
+            <input type="text" placeholder="Email or phone number" />
+            <input type="password" placeholder="Password" min="8" />
+            <input type="submit" value="Log In" formaction="friends.html" />
+            <input type="button" value="Sign Up" />
+        </form>
+
+        <div class="login__find-account-password">
+            Find an Account or Password
+        </div>
+
+        <div class="login__logo">
+            <img src="images/sanstalklogo.png" class="login__logo-img" />
+        </div>
+
+        <script
+            src="https://kit.fontawesome.com/26fe6cc36f.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

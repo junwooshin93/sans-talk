@@ -1,0 +1,19 @@
+.top-module {
+    margin-top: 30px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-xlarge);
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 94%;
+}
+
+.top-module__column i {
+    font-size: var(--font-size-large);
+}
+
+.top-module__column i:not(.top-module__column i:nth-of-type(4)) {
+    margin-right: 10px;
+}

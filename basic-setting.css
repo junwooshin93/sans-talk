@@ -1,0 +1,16 @@
+h1,
+h2,
+div,
+span,
+input {
+    font-family: var(--font-text);
+}
+
+body {
+    width: 100vw;
+}
+
+.main-margin-leftright {
+    margin-left: 3%;
+    margin-right: 3%;
+}
