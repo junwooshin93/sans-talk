@@ -48,7 +48,7 @@
 .weather__info {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .weather__info > i,
