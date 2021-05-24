@@ -1,0 +1,25 @@
+.setting-box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--border-smooth);
+    padding-bottom: 10px;
+}
+
+.setting__row {
+    display: flex;
+    font-size: var(--font-size-xlarge);
+    padding: 20px 0px;
+}
+
+.setting__row > i {
+    width: 27px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.setting__version > div:nth-child(2) {
+    font-size: var(--font-size-large);
+    color: var(--font-color-smoothgrey);
+    margin-top: 10px;
+}

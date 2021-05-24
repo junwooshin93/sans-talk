@@ -18,3 +18,7 @@
 .top-module__column i:not(.top-module__column i:last-of-type) {
     margin-right: 10px;
 }
+
+.top-module__column > a > i {
+    margin-left: 10px;
+}
