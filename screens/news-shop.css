@@ -1,0 +1,22 @@
+.shop-item {
+    border-bottom: var(--border-smooth);
+    padding: 20px 0px;
+}
+
+.shop-item__title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: var(--font-size-large);
+}
+
+.shop-item__img {
+    width: 100%;
+    border-radius: 15px;
+    border: var(--border-verysmooth);
+}
+
+.shop-item__desc {
+    display: block;
+    color: var(--font-color-smoothgrey);
+    margin-top: 5px;
+}

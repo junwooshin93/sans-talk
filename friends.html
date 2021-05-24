@@ -4,10 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login Page</title>
+        <title>Friends Page</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
-    <body>
+    <body class="body-height">
         <div class="status-bar main-margin-leftright">
             <div class="status-bar__column">
                 <div class="status-bar__column-items">
@@ -37,17 +37,146 @@
             </div>
         </div>
 
-        <div class="my-profil main-margin-leftright">
+        <div class="my-profil main-margin-leftright2">
             <div class="my-profil__column">
                 <img src="images/sanstalkprofil.jpg" class="my-profil__img" />
                 <span class="my-profil__name">San</span>
             </div>
             <div class="my-profil__column">
-                <div class="my-profil__music">
-                    <div class="my-profil__music-name">그대라는 시 - 태연</div>
+                <div class="common-bar__music">
+                    <div class="common-bar__music-name">
+                        그대라는 시 - 태연(Hotel..
+                    </div>
                     <i class="fas fa-play"></i>
                 </div>
             </div>
+        </div>
+        <div class="common-bar__box main-margin-leftright2">
+            <div class="common-bar__title">
+                <div class="common-bar__color">Birthday</div>
+                <i class="fas fa-chevron-up common-bar__color"></i>
+            </div>
+            <div class="birthday common-bar">
+                <div class="birthday__column common-bar__column">
+                    <div class="common-bar__emo-small">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <span>Check birthday of your friends!</span>
+                </div>
+                <div class="birthday__column common-bar__column">
+                    <span class="common-bar__color">3</span>
+                    <i
+                        class="
+                            fas
+                            fa-chevron-right
+                            common-bar__color common-bar__chev-margin
+                        "
+                    ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-bar__box main-margin-leftright2">
+            <div class="common-bar__title">
+                <div class="common-bar__color">Channel</div>
+                <i class="fas fa-chevron-up common-bar__color"></i>
+            </div>
+            <div class="channel common-bar">
+                <div class="channel__column common-bar__column">
+                    <div class="common-bar__emo-small">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <span>Channel</span>
+                </div>
+                <div class="channel__column common-bar__column">
+                    <span class="common-bar__color">20</span>
+                    <i
+                        class="
+                            fas
+                            fa-chevron-right
+                            common-bar__color common-bar__chev-margin
+                        "
+                    ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-bar__box main-margin-leftright2">
+            <div class="common-bar__title">
+                <div class="common-bar__color">Friends</div>
+                <i class="fas fa-chevron-up common-bar__color"></i>
+            </div>
+            <div class="friend common-bar">
+                <div class="friend__column common-bar__column">
+                    <img
+                        src="images/dogrunning.jpg"
+                        class="common-bar__img-small"
+                    />
+                    <span>Buddy</span>
+                </div>
+                <div class="friend__column common-bar__column"></div>
+            </div>
+
+            <div class="friend common-bar">
+                <div class="friend__column common-bar__column">
+                    <img
+                        src="images/doglogo.jpg"
+                        class="common-bar__img-small"
+                    />
+                    <span>Ernie</span>
+                </div>
+                <div class="friend__column common-bar__column">
+                    <div class="common-bar__music">
+                        <div class="common-bar__music-name">
+                            Old Town Road - Lil X N..
+                        </div>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav__box">
+            <ul class="nav__list">
+                <li class="nav__btn checked">
+                    <a class="nav__link" href="friends.html">
+                        <i class="fas fa-dog"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span
+                            class="
+                                notification__number
+                                notification__comment-position
+                            "
+                        >
+                            6
+                        </span>
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="news.html">
+                        <i class="far fa-newspaper"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="splash-screen">
+            <img src="images/sanstalklogo.png" />
+            <div>Loading..!!</div>
+        </div>
+
+        <div id="no-mobile">
+            <img src="images/sanstalklogo.png" />
+            <span>Your Screen is too BIG!</span>
         </div>
 
         <script

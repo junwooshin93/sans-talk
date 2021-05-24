@@ -1,0 +1,108 @@
+.common-bar__box {
+    border-bottom: var(--border-basic);
+    padding-bottom: 7.5px;
+}
+
+.common-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+.common-bar__column {
+    display: flex;
+    align-items: center;
+}
+
+.common-bar__img-small {
+    width: var(--img-size-small);
+    height: var(--img-size-small);
+    border-radius: 15px;
+    margin-right: 10px;
+    border: var(--border-smooth);
+}
+
+.common-bar__img-basic {
+    width: var(--img-size-basic);
+    height: var(--img-size-basic);
+    border-radius: 20px;
+    margin-right: 10px;
+    border: var(--border-smooth);
+}
+
+.common-bar__img-large {
+    width: var(--img-size-large);
+    height: var(--img-size-large);
+    border-radius: 25px;
+    margin-right: 10px;
+    border: var(--border-smooth);
+}
+
+.common-bar__emo-small {
+    font-size: var(--font-size-basic);
+    width: var(--img-size-small);
+    height: var(--img-size-small);
+    border-radius: 15px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-bar__emo-basic {
+    font-size: var(--font-size-large);
+    width: var(--img-size-basic);
+    height: var(--img-size-basic);
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-bar__emo-large {
+    font-size: var(--font-size-xlarge);
+    width: var(--img-size-large);
+    height: var(--img-size-large);
+    border-radius: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-bar__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 7.5px;
+}
+
+.common-bar__color {
+    color: var(--font-color-smoothgrey);
+}
+
+.common-bar__chev-margin {
+    margin-left: 3px;
+}
+
+.common-bar__music {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--font-color-mydog);
+    border-radius: 15px;
+    padding: 6px 10px;
+}
+
+.common-bar__music-name {
+    width: 150px;
+    font-size: var(--font-size-small);
+    color: var(--font-color-grey);
+}
+
+.common-bar__music > i {
+    color: var(--font-color-mydog);
+}

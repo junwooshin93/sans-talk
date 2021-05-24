@@ -1,0 +1,73 @@
+.more-items {
+    margin-top: 84px;
+    border-bottom: var(--border-smooth);
+}
+
+.more-items__row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.more-items__emo {
+    width: 100%;
+    display: flex;
+}
+
+.more-items__emo > i {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-xlarge);
+}
+
+.more-items__title {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.more-items__title > span {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-box {
+    padding: 20px 0px;
+    border-bottom: var(--border-smooth);
+}
+
+.weather__location {
+    color: var(--font-color-grey);
+}
+
+.weather__info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.weather__info > i,
+.weather__info > span {
+    font-size: var(--font-size-3xlarge);
+}
+
+.weather__info > span {
+    margin: 0px 10px;
+}
+
+.weather__info > i {
+    color: gold;
+}
+
+.weather__air > span:first-of-type {
+    color: var(--font-color-smoothgrey);
+}
+
+.weather__air > span:nth-of-type(2) {
+    color: red;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat with Buddy Page</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="body-height chat-background">
+        <div class="status-bar main-padding-leftright" id="chat-status-bar">
+            <div class="status-bar__column">
+                <div class="status-bar__column-items">
+                    <span>4:38</span>
+                    <i class="fas fa-sms"></i>
+                    <i class="fas fa-running"></i>
+                </div>
+            </div>
+            <div class="status-bar__column">
+                <div class="status-bar__column-items">
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-signal"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-module" id="chat-top-module">
+            <div class="top-module__column">
+                <a href="chats.html"><i class="fas fa-arrow-left"></i></a>
+                <span>Buddy</span>
+            </div>
+            <div class="top-module__column">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <main class="chat-main-screen main-chat main-margin-leftright">
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble"
+                            >how is your journey to the<br />
+                            beach??</span
+                        >
+                        <span class="message__time">23:37</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chats-timestamp">Tuesday, June 30, 2020</div>
+
+            <div class="message-row">
+                <img src="images/dogrunning.jpg" />
+                <div class="message-row__content">
+                    <span class="message__author">Buddy</span>
+                    <div class="message__info">
+                        <span class="message__bubble"
+                            >Sorry I fell in a sleep</span
+                        >
+                        <span class="message__time">11:27</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">haha :). it's okay</span>
+                        <span class="message__time">21:28</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row">
+                <img src="images/dogrunning.jpg" />
+                <div class="message-row__content">
+                    <span class="message__author">Buddy</span>
+                    <div class="message__info">
+                        <span class="message__bubble">It's refreshing! </span>
+                        <span class="message__time">21:30</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row">
+                <img src="images/dogrunning.jpg" />
+                <div class="message-row__content">
+                    <span class="message__author">Buddy</span>
+                    <div class="message__info">
+                        <span class="message__bubble">
+                            The weather today is really cool.<br />
+                            It's not hot but not also cold. <br />
+                        </span>
+                        <span class="message__time">21:31</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row">
+                <img src="images/dogrunning.jpg" />
+                <div class="message-row__content">
+                    <span class="message__author">Buddy</span>
+                    <div class="message__info">
+                        <span class="message__bubble">
+                            Thx for recommending this place :D
+                        </span>
+                        <span class="message__time">21:31</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row">
+                <img src="images/dogrunning.jpg" />
+                <div class="message-row__content">
+                    <span class="message__author">Buddy</span>
+                    <div class="message__info">
+                        <span class="message__bubble">
+                            Oh, san. I must go now. See ya!
+                        </span>
+                        <span class="message__time">21:31</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message" />
+                <i class="far fa-smile fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </form>
+
+        <div id="no-mobile">
+            <img src="images/sanstalklogo.png" />
+            <span>Your Screen is too BIG!</span>
+        </div>
+
+        <script
+            src="https://kit.fontawesome.com/26fe6cc36f.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

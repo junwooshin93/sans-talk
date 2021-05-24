@@ -1,0 +1,22 @@
+.sports__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sports__article {
+    padding: 10px 0px;
+    border-bottom: var(--border-verysmooth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sports__article__title {
+    width: 65%;
+}
+
+.sports__article__img {
+    width: 30%;
+    border-radius: 10px;
+    border: var(--border-verysmooth);
+}

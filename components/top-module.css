@@ -1,5 +1,5 @@
 .top-module {
-    margin-top: 30px;
+    margin-top: 29.5px;
     padding: 15px 0px;
     display: flex;
     justify-content: space-between;
@@ -8,12 +8,13 @@
     position: fixed;
     top: 0px;
     width: 94%;
+    z-index: 4;
 }
 
 .top-module__column i {
     font-size: var(--font-size-large);
 }
 
-.top-module__column i:not(.top-module__column i:nth-of-type(4)) {
+.top-module__column i:not(.top-module__column i:last-of-type) {
     margin-right: 10px;
 }

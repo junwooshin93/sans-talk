@@ -1,0 +1,19 @@
+.notification__number {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    will-change: notificationY;
+    animation: notificationY 3s ease-in-out infinite;
+}
+
+.notification__comment-position {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}

@@ -22,20 +22,11 @@
     border-radius: 20px;
 }
 
-.my-profil__music {
-    display: flex;
-    align-items: center;
-    border: 1px solid var(--font-color-mydog);
-    border-radius: 15px;
-    padding: 6px 10px;
+.birthday__column:first-of-type div {
+    background-color: #ff7675;
+    color: white;
 }
 
-.my-profil__music-name {
-    width: 150px;
-    font-size: var(--font-size-small);
-    color: var(--font-color-grey);
-}
-
-.my-profil__music > i {
-    color: var(--font-color-mydog);
+.channel__column:first-of-type div {
+    background-color: var(--font-color-mydog);
 }

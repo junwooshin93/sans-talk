@@ -1,0 +1,33 @@
+.news__corona-info {
+    margin-top: 94px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--border-smooth);
+}
+
+.news__corona__column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.news__coronoa__column:first-child > span:nth-of-type(2),
+.news__coronoa__column:first-child > i {
+    color: red;
+}
+
+.news__coronoa__column > span:last-of-type {
+    font-size: var(--font-size-small);
+    color: var(--font-color-smoothgrey);
+}
+
+.news__coronoa__column:nth-child(2) > i {
+    font-size: var(--font-size-large);
+}
+
+.news__article {
+    padding: 15px 0px;
+    border-bottom: var(--border-verysmooth);
+}

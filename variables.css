@@ -7,6 +7,8 @@
     --font-size-small: 12px;
     --font-size-xmall: 10px;
     --font-size-xlarge: 24px;
+    --font-size-2xlarge: 28px;
+    --font-size-3xlarge: 32px;
 
     --font-color-basic: #2d3436;
     --font-color-grey: #636e72;
@@ -17,6 +19,7 @@
 
     --border-basic: 1px solid var(--font-color-smoothgrey);
     --border-smooth: 1px solid var(--font-color-verysmoothgrey);
+    --border-verysmooth: 1px solid #b2bec34f;
 
     --img-size-basic: 60px;
     --img-size-large: 80px;

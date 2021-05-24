@@ -8,6 +8,7 @@
     background-color: white;
     width: 94%;
     box-sizing: border-box;
+    z-index: 5;
 }
 
 .status-bar__column-items {
